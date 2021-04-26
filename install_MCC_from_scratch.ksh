@@ -10,15 +10,15 @@ then
   then
 	  echo "Docker is install correctly"
   else
-	  sudo apt-get update
+	  sudo apt-get update -y
 	  sudo apt install docker.io
 	  sudo usermod -aG docker $USER
 	  echo "Docker is now installed - please logoff, login again and start me for a second time!"
 	  exit
   fi
 else
-	  sudo apt-get update
-	  sudo apt install docker.io
+	  sudo apt-get update -y
+	  sudo apt install docker.io -y
 	  sudo usermod -aG docker $USER
 	  echo "Docker is now installed - please logoff, login again and start me for a second time!"
 	  exit
