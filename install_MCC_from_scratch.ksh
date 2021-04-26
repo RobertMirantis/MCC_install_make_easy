@@ -39,7 +39,7 @@ else
 fi
 
 # Sourceme file
-if [[ -f /home/ubuntu/sourceme.ksh && `cat /home/ubuntu/sourceme.ksh | grep "<" | wc -l` -eq 0 ]} 
+if [[ -f /home/ubuntu/sourceme.ksh && `cat /home/ubuntu/sourceme.ksh | grep "<" | wc -l` -eq 0 ]] 
 then
 	echo "Great! You have the sourceme.ksh file already "
 else
