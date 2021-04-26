@@ -103,6 +103,7 @@ mv ${FILE}.1 ${FILE}
 
 # Source the AWS parameters
 . ./sourceme.ksh
+cp sourceme.ksh kaas-bootstrap/
 
 # Kick start_my_MCC_cluster.ksh script
 
